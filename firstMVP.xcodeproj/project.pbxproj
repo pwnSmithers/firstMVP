@@ -15,6 +15,7 @@
 		96C82492234C92C2005723C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C82490234C92C2005723C2 /* LaunchScreen.storyboard */; };
 		96C8249D234C92C3005723C2 /* firstMVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C8249C234C92C3005723C2 /* firstMVPTests.swift */; };
 		96C824A8234C92C3005723C2 /* firstMVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C824A7234C92C3005723C2 /* firstMVPUITests.swift */; };
+		96C824B7234C9426005723C2 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C824B6234C9426005723C2 /* TrafficLight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		96C824A3234C92C3005723C2 /* firstMVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstMVPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C824A7234C92C3005723C2 /* firstMVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstMVPUITests.swift; sourceTree = "<group>"; };
 		96C824A9234C92C3005723C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C824B6234C9426005723C2 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		96C82484234C92C1005723C2 /* firstMVP */ = {
 			isa = PBXGroup;
 			children = (
+				96C824B5234C940C005723C2 /* Model */,
 				96C82485234C92C1005723C2 /* AppDelegate.swift */,
 				96C82487234C92C1005723C2 /* SceneDelegate.swift */,
 				96C82489234C92C1005723C2 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				96C824A9234C92C3005723C2 /* Info.plist */,
 			);
 			path = firstMVPUITests;
+			sourceTree = "<group>";
+		};
+		96C824B5234C940C005723C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96C824B6234C9426005723C2 /* TrafficLight.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				96C8248A234C92C1005723C2 /* ViewController.swift in Sources */,
 				96C82486234C92C1005723C2 /* AppDelegate.swift in Sources */,
 				96C82488234C92C1005723C2 /* SceneDelegate.swift in Sources */,
+				96C824B7234C9426005723C2 /* TrafficLight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
